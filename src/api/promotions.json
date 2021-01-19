@@ -1,0 +1,211 @@
+[
+  {
+    "id": 1,
+    "name": "全部",
+    "promotionDetails": [
+      {
+        "date": "2019-12-06至2020-12-06",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-12-06",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-12-06",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-12-06",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-12-06",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-12-06",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-12-06",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      }
+    ]
+    
+  },
+  {
+    "id": 2,
+    "name": "首存",
+    "promotionDetails": [
+      {
+        "date": "2019-12-06至2020-12-07",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-12-07",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-12-07",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-12-07",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-12-07",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-12-07",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-12-07",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      }
+    ]
+    
+  },
+  {
+    "id": 3,
+    "name": "体育",
+    "promotionDetails": [
+      {
+        "date": "2019-12-06至2020-12-08",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-12-08",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-12-08",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-12-08",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-12-08",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-12-08",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-12-08",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      }
+    ]
+    
+  },
+  {
+    "id": 4,
+    "name": "真人",
+    "promotionDetails": [
+      {
+        "date": "2019-12-06至2020-12-09",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-12-09",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-12-09",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-12-09",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-12-09",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-12-09",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-12-09",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      }
+    ]
+    
+  },
+  {
+    "id": 5,
+    "name": "返水",
+    "promotionDetails": [
+      {
+        "date": "2019-12-06至2020-11-01",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-11-01",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-11-01",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-11-01",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-11-01",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-11-01",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-11-01",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      }
+    ]
+    
+  },
+  {
+    "id": 6,
+    "name": "豪礼",
+    "promotionDetails": [
+      {
+        "date": "2019-12-06至2020-12-01",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-12-01",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-12-01",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-12-01",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-12-01",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-12-01",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      },
+      {
+        "date": "2019-12-06至2020-12-01",
+        "img": "https://res.cloudinary.com/distthanl/image/upload/v1589738737/banner.png"
+      }
+    ]
+  }
+]
