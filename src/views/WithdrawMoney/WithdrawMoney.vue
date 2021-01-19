@@ -78,6 +78,7 @@
 </template>
 
 <script>
+var Mock = require('mockjs');
 import Navigation from '../../components/Navigation/Navigation.vue'
 export default {
   name: 'WithdrawMoney',
@@ -89,75 +90,8 @@ export default {
       isActive: false,
       isActiveBank: false,
       centralWallet: 3333.333,
-      gamePoints: [
-        {
-          id: 1,
-          title: 'XX体育',
-          points: '0.00'
-        },
-        {
-          id: 2,
-          title: '电竞',
-          points: '0.00'
-        },
-        {
-          id: 3,
-          title: 'PT',
-          points: '0.00'
-        },
-        {
-          id: 4,
-          title: 'MG+',
-          points: '0.00'
-        },
-        {
-          id: 5,
-          title: 'Title 5',
-          points: '0.00'
-        },
-        {
-          id: 6,
-          title: 'Title 6',
-          points: '0.00'
-        },
-        {
-          id: 7,
-          title: 'Title 7',
-          points: '0.00'
-        },
-        {
-          id: 8,
-          title: 'Title 8',
-          points: '0.00'
-        }
-      ],
-      options: [
-        {
-          id: 1,
-          IssuingNetwork: 'Bank Name',
-          cardNumber: '8888'
-        },
-        {
-          id: 2,
-          IssuingNetwork: 'Bank Name',
-          cardNumber: '3586'
-        },
-        {
-          id: 3,
-          IssuingNetwork: 'Bank Name',
-          cardNumber: '86345'
-        },
-        {
-          id: 4,
-          IssuingNetwork: 'Bank Name',
-          cardNumber: '786'
-        },
-        {
-          id: 5,
-          IssuingNetwork: 'Bank Name',
-          cardNumber: '283'
-        }
-      ],
+      gamePoints: [],
+      options: [],
       amount: '',
       accountNumber: '',
       cardNum1: '',
@@ -189,6 +123,29 @@ export default {
         }
       })
     })
+  },
+  created() {
+    var createGamePoints = Mock.mock({
+      'data|8': [
+        {
+          id: '@id',
+          title: '@cname',
+          points: '0.00'
+        }
+      ]
+    })
+    this.gamePoints = createGamePoints.data
+
+    var createOptions = Mock.mock({
+      'data|8': [
+        {
+          id: '@id',
+          IssuingNetwork: '@cname',
+          cardNumber: '@id'
+        }
+      ]
+    })
+    this.options = createOptions.data
   }
 }
 </script>

@@ -23,6 +23,7 @@ import Entry from '../views/index/Entry.vue'
 import Login from '../views/index/Login.vue'
 import Register from '../views/index/Register.vue'
 import PagePlaceholder from '../views/PagePlaceholder/PagePlaceholder.vue'
+import PageNotFound from '../views/PageNotFound/PageNotFound.vue'
 
 Vue.use(VueRouter)
 
@@ -121,6 +122,11 @@ const routes = [
     path: '/page-placeholder',
     name: 'PagePlaceholder',
     component: PagePlaceholder
+  },
+  {
+    path: '*',
+    name: 'PageNotFound',
+    component: PageNotFound
   },
   {
     path: '/entry',

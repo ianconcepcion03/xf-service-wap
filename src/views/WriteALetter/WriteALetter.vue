@@ -48,6 +48,8 @@
 </template>
 
 <script>
+var Mock = require('mockjs');
+
 import Navigation from '../../components/Navigation/Navigation.vue'
 export default {
   name: 'WriteALetter',
@@ -61,13 +63,7 @@ export default {
       description: '',
       formSubmit: [],
       selectItem: '',
-      quickInput: [
-        { title: 'Title 1' },
-        { title: 'Title 2' },
-        { title: 'Title 3' },
-        { title: 'Title 4' },
-        { title: 'Title 5' }
-      ],
+      quickInput: [],
     }
   },
   methods: {
@@ -121,6 +117,17 @@ export default {
 		selectItem(newValue) {
       return this.quickInput[newValue].title ? this.title = this.quickInput[newValue].title : null
     }
+  },
+  created() {
+    var createQuickInput = Mock.mock({
+      'data|8': [
+        {
+          id: '@id',
+          title: '@csentence(2)'
+        }
+      ]
+    })
+    this.quickInput = createQuickInput.data
   }
 }
 </script>
