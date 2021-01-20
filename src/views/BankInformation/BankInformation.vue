@@ -39,6 +39,7 @@
 </template>
 
 <script>
+var Mock = require('mockjs');
 import Navigation from '../../components/Navigation/Navigation.vue'
 export default {
   name: 'BankInformation',
@@ -47,13 +48,21 @@ export default {
   },
   data() {
     return {
-      bankInformations: [
+      bankInformations: []
+    }
+  },
+  created() {
+    var createBankInformations = Mock.mock({
+      'data|1-3': [
         {
-          bankName: '北京银行',
-          accountNumber: '26533*****34'
+          id: '@id',
+          bankName: '@cname()',
+          accountNumber: '@id()'
         }
       ]
-    }
+    })
+    console.log(createBankInformations)
+    this.bankInformations = createBankInformations.data
   },
   methods: {
     addBankInfo(e) {

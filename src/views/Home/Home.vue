@@ -33,38 +33,6 @@ export default {
   data() {
     return {
       imageData: '',
-      // imageData: [
-      //   {
-      //     id: 1,
-      //     name: '电竞赛事',
-      //     img: require('../../assets/images/home/img-e-sports.png')
-      //   },
-      //   {
-      //     id: 2,
-      //     name: '体育',
-      //     img: require('../../assets/images/home/img-physical-education.png')
-      //   },
-      //   {
-      //     id: 3,
-      //     name: '真人',
-      //     img: require('../../assets/images/home/img-real-people.png')
-      //   },
-      //   {
-      //     id: 4,
-      //     name: '棋牌',
-      //     img: require('../../assets/images/home/img-chess.png')
-      //   },
-      //   {
-      //     id: 5,
-      //     name: '捕鱼',
-      //     img: require('../../assets/images/home/img-fishing.png')
-      //   },
-      //   {
-      //     id: 6,
-      //     name: '电游',
-      //     img: require('../../assets/images/home/img-video-games.png')
-      //   }
-      // ]
     }
   },
   created() {

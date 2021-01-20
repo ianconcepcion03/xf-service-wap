@@ -117,8 +117,8 @@ export default {
   },
   data() {
     return {
-      isLoggedIn: true,
-      isLoggedOut: false,
+      isLoggedIn: false,
+      isLoggedOut: true,
       isVip: true
     }
   },

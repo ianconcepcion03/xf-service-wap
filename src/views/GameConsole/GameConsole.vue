@@ -43,14 +43,10 @@ export default {
     return {
       activeName: '老虎机',
       gameconsoles: [],
-      // activeName: '老虎机',
-      // gameconsoles: gameconsoles,
       searchValue: ''
     }
   },
   created() {
-
-    // console.log(this.gameconsoles)
     var createGameconsoles = Mock.mock({
       'data|3': [
         {

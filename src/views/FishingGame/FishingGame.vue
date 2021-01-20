@@ -38,23 +38,6 @@ export default {
   data() {
    return {
      fishingGames: []
-      // fishingGames: [
-      //   {
-      //     logo: require('../../assets/images/fishingGame/logo.png'),
-      //     name: 'XX安卓版',
-      //     description: '深海3D逼真视效，时时爆机，千倍炮台，万炮齐发，满屏金币！'
-      //   },
-      //   {
-      //     logo: require('../../assets/images/fishingGame/logo.png'),
-      //     name: 'XX安卓版',
-      //     description: '深海3D逼真视效，时时爆机，千倍炮台，万炮齐发，满屏金币！'
-      //   },
-      //   {
-      //     logo: require('../../assets/images/fishingGame/logo.png'),
-      //     name: 'XX安卓版',
-      //     description: '深海3D逼真视效，时时爆机，千倍炮台，万炮齐发，满屏金币！'
-      //   }
-      // ]
     }
   },
   methods: {
