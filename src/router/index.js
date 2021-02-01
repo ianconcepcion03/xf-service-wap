@@ -7,6 +7,7 @@ import CustomerService from '../views/CustomerService/CustomerService.vue'
 import GameConsole from '../views/GameConsole/GameConsole.vue'
 import Mine from '../views/Mine/Mine.vue'
 import Vip from '../views/Vip/Vip.vue'
+import VipDetails from '../views/VipDetails/VipDetails.vue'
 import StationLetter from '../views/StationLetter/StationLetter.vue'
 import TransactionRecord from '../views/TransactionRecord/TransactionRecord.vue'
 import WriteALetter from '../views/WriteALetter/WriteALetter.vue'
@@ -52,6 +53,11 @@ const routes = [
     path: '/mine/vip',
     name: 'Vip',
     component: Vip
+  },
+  {
+    path: '/mine/vip-details',
+    name: 'VipDetails',
+    component: VipDetails
   },
   {
     path: '/mine',

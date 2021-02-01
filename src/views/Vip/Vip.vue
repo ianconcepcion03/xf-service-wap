@@ -5,7 +5,7 @@
         <div class="vip-menu">
           <ul>
             <li><router-link to="/mine/vip">VIP特权</router-link></li>
-            <li><router-link to="/">VIP详情</router-link></li>
+            <li><router-link to="/mine/vip-details">VIP详情</router-link></li>
           </ul>
         </div>
         <div class="vip-slider-center" ref="vipSlider">
@@ -406,7 +406,7 @@ export default {
     }
   }
   .vip-slider-container {
-    display: inline-flex;
+    display: block;
     overflow: hidden;
     align-items: flex-start;
     /* width: 1330px !important; */
@@ -419,10 +419,13 @@ export default {
       box-sizing: border-box;
       overflow: hidden;
       padding: 0 1.5rem;
+      transition: opacity 800ms ease-out;
       opacity: 0;
-      transition: all linear 250ms;
+      height: 0;
+      overflow: hidden;
       &.is-active-slide {
         opacity: 1;
+        height: auto;
       }
       img {
         display: block;

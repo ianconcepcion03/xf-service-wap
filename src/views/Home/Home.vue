@@ -13,14 +13,14 @@
 </template>
 
 <script>
-var Mock = require('mockjs');
-const Random = Mock.Random
+var Mock = require('mockjs')
 
 import Banner from '../../components/Home/Banner.vue'
 import HomeHeader from '../../components/Home/HomeHeader.vue'
 import Games from '../../components/Home/Games.vue'
 import GameScrollMenu from '../../components/Home/GameScrollMenu.vue'
 import Navigation from '../../components/Navigation/Navigation.vue'
+
 export default {
   name: 'Home',
   components: {
@@ -32,7 +32,7 @@ export default {
   },
   data() {
     return {
-      imageData: '',
+      imageData: ''
     }
   },
   created() {

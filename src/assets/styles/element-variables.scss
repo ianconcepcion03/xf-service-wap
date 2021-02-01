@@ -420,3 +420,72 @@ $--font-path: '~element-ui/lib/theme-chalk/fonts';
   width: auto;
   border-radius: .05rem;
 }
+.vip-content {
+  .el-table__header,
+  .el-table__body {
+    width: auto !important;
+  }
+  
+  .el-table__body td:nth-child(1),
+  .el-table__header th:nth-child(1) {
+    min-width: 47px;
+    max-width: 47px;
+  }
+  .el-table__body td:nth-child(1) .cell:before {
+    content: "VIP";
+    display: inline-block;
+    padding-right: 2px;
+  }
+  .el-table__body td:nth-child(2),
+  .el-table__header th:nth-child(2) {
+    min-width: 98px;
+    max-width: 98px;
+  }
+  .el-table__body td:nth-child(3),
+  .el-table__header th:nth-child(3) {
+    min-width: 127px;
+    max-width: 127px;
+  }
+  .el-table th, .el-table td {
+    text-align: center;
+  }
+  .el-table .cell {
+    font-size: .27rem;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .el-table th {
+    border-bottom: 1px solid #EBEEF5;
+    border: none;
+    background-color: #33bcd4;
+    color: #fff;
+    font-weight: normal;
+  }
+  .el-table td {
+    background-color: #212534;
+    color: #bacef1;
+  }
+  .el-table--group, .el-table--border {
+    border: none;
+  }
+  
+  .el-table--group::after, 
+  .el-table--border::after,
+  .el-table--group::after, 
+  .el-table--border::after, 
+  .el-table::before {
+    content: none
+  }
+  .el-table {
+    background-color: transparent;
+  }
+  
+  .el-table--border th, 
+  .el-table--border td {
+    border-right: none;
+  }
+  .el-table th.is-leaf, 
+  .el-table td {
+    border-bottom: none;
+  }
+}
